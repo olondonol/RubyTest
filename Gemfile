@@ -37,9 +37,10 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   # Use RSpec for specs
-  gem 'rspec-rails', '3.1.0'
+  #gem 'rspec-rails', '3.1.0'
+  gem 'rspec-rails', '~> 3.5', '>= 3.5.2'
   # Use Factory Girl for generating random test data
-  gem 'factory_girl_rails'
+  gem 'factory_bot_rails'
 end
 
 
