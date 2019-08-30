@@ -1,4 +1,5 @@
 class MoviesController < ApplicationController
+  include Swagger::Blocks
   before_action :set_movie, only: [:show, :update, :destroy]
 
   # GET /movies
