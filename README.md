@@ -5,20 +5,22 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.6.3
 
-* System dependencies
+* Database Version Postgress v11
 
+* Aditional gems to the project
+    gem 'rack-cors'
+    gem 'swagger-blocks'
+    gem 'rspec-rails', '~> 3.5', '>= 3.5.2'
+    gem 'factory_bot_rails'
+    gem 'pg'
+    
 * Configuration
-
+  Install postgres v11 
+  Review to file database.ylm and adjust the connection.
+  
 * Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    postgress_movies_dev
+    mostgress_movie_test
+    
